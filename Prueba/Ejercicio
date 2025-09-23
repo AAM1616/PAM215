@@ -1,0 +1,13 @@
+
+let nombre = "Armando";
+const edad = "25";
+
+nombre = "Ana Maria";
+
+var saludo  = "Hola, " +nombre + ". Tienes " + edad + "años.";
+
+print saludo;
+
+console.log
+
+//muestra en consola el contenido de un saludo
