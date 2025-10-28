@@ -8,6 +8,7 @@ import ModalScreen from './ModalScreen';
 import TextoScreen from './TextoScreen';
 import ImagenesScreen from './ImagenesScreen';
 import ScrollScreen from './ScrollScreen';
+import Practica11 from './Practica11';
 
 export default function MenuScreen (){
     const[screen, setScreen] = useState('menu');
@@ -29,6 +30,8 @@ export default function MenuScreen (){
             return <ImagenesScreen/>;
             case 'scroll':
             return <ScrollScreen/>;
+            case '11':
+            return <Practica11/>;
         case 'menu':
             default:
                 return (
@@ -42,6 +45,8 @@ export default function MenuScreen (){
                         <Button onPress={()=>setScreen ('texto')} title='Pract: Texto'> </Button>
                         <Button onPress={()=>setScreen ('imagenes')} title='Pract: Imagenes'> </Button>
                         <Button onPress={()=>setScreen ('scroll')} title='Pract: Scroll'> </Button>
+                        <Button onPress={()=>setScreen ('11')} title='Pract: 11'> </Button>
+
 
                         
                     </View>

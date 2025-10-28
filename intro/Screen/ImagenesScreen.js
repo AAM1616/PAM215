@@ -37,7 +37,7 @@ if(cargando){
           resizeMode='cover'
           style= {styles.backgrounds}
           >
-            <Text style= {styles.texto}>Chinguen a su madre... digo Shaw</Text>
+            <Text style= {styles.texto}>Kris no tenemos dinero para los tacos</Text>
         </ImageBackground>
       //<View>
       //  <Text>Proximamente por Charly...</Text>
